@@ -1,0 +1,930 @@
+###############################################################################
+#
+# IAR ELF Linker V7.80.3.12102/W32 for ARM                02/Mar/2017  11:52:27
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\freertos_dspi.out
+#    Map file     =  
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\list\freertos_dspi.map
+#    Command line =  
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\A7139.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\A7139_CONFIG.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\board.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\clock_config.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\croutine.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\event_groups.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\fota_test.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\freertos_dspi.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\fsl_clock.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\fsl_common.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\fsl_debug_console.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\fsl_dspi.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\fsl_dspi_freertos.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\fsl_gpio.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\fsl_sbrk.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\fsl_smc.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\fsl_uart.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\fsl_uart_freertos.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\hb_protocol.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\heap_4.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\list.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\pin_mux.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\port.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\portasm.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\queue.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\simple_console.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\SPI_A7139.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\startup_MK24F25612.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\system_MK24F25612.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\tasks.o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj\timers.o
+#        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\freertos_dspi.out
+#        --map
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\list\freertos_dspi.map
+#        --config
+#        D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar/MK24FN256xxx12_flash.icf
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000400 to 0x0000040f] { section FlashConfig };
+"P2":  place in [from 0x00000000 to 0x000003ff] |
+                [from 0x00000410 to 0x0003ffff] { ro };
+"P3":  place in [from 0x1fff0000 to 0x1fffffff] |
+                [from 0x20000000 to 0x2002fbff] { block RW };
+"P4":  place in [from 0x1fff0000 to 0x1fffffff] |
+                [from 0x20000000 to 0x2002fbff] { block ZI };
+"P6":  place in [from 0x2002fc00 to 0x2002ffff] { block CSTACK };
+initialize by copy { rw, section .textrw };
+
+  Section               Kind        Address    Size  Object
+  -------               ----        -------    ----  ------
+"A0":                                         0x400
+  .intvec               ro code  0x00000000   0x400  startup_MK24F25612.o [1]
+                               - 0x00000400   0x400
+
+"P1":                                          0x10
+  FlashConfig           ro code  0x00000400    0x10  startup_MK24F25612.o [1]
+                               - 0x00000410    0x10
+
+"P2":                                        0x6860
+  .text                 ro code  0x00000410   0xd28  tasks.o [1]
+  .text                 ro code  0x00001138   0x258  port.o [1]
+  .text                 ro code  0x00001390    0x98  list.o [1]
+  .text                 ro code  0x00001428   0x4b8  timers.o [1]
+  .text                 ro code  0x000018e0   0x260  heap_4.o [1]
+  .text                 ro code  0x00001b40    0x66  ABImemset.o [5]
+  .text                 ro code  0x00001ba6     0x2  startup_MK24F25612.o [1]
+  CODE                  ro code  0x00001ba8    0xa8  portasm.o [1]
+  .text                 ro code  0x00001c50   0x81a  queue.o [1]
+  .text                 ro code  0x0000246a     0x2  startup_MK24F25612.o [1]
+  .text                 ro code  0x0000246c    0x76  ABImemcpy_unaligned.o [5]
+  .text                 ro code  0x000024e2     0x2  startup_MK24F25612.o [1]
+  .text                 ro code  0x000024e4   0xa34  fsl_uart.o [1]
+  .text                 ro code  0x00002f18    0x18  fsl_common.o [1]
+  .text                 ro code  0x00002f30   0x416  fsl_debug_console.o [1]
+  .text                 ro code  0x00003346     0x2  startup_MK24F25612.o [1]
+  .text                 ro code  0x00003348    0x36  strlen.o [5]
+  .text                 ro code  0x0000337e     0x2  startup_MK24F25612.o [1]
+  .text                 ro code  0x00003380   0x958  fsl_dspi.o [1]
+  .text                 ro code  0x00003cd8   0x768  fsl_clock.o [1]
+  .text                 ro code  0x00004440   0x42c  A7139.o [1]
+  .text                 ro code  0x0000486c   0x13a  fsl_dspi_freertos.o [1]
+  .text                 ro code  0x000049a6     0x2  startup_MK24F25612.o [1]
+  .text                 ro code  0x000049a8   0x3a0  pin_mux.o [1]
+  .text                 ro code  0x00004d48    0xb4  fsl_gpio.o [1]
+  .text                 ro code  0x00004dfc   0x308  fsl_uart_freertos.o [1]
+  .text                 ro code  0x00005104   0x2ac  event_groups.o [1]
+  .text                 ro code  0x000053b0   0x2d8  simple_console.o [1]
+  .text                 ro code  0x00005688     0x4  strtoul.o [3]
+  .text                 ro code  0x0000568c   0x148  fota_test.o [1]
+  .text                 ro code  0x000057d4   0x19c  xstoul.o [3]
+  .text                 ro code  0x00005970   0x2c0  hb_protocol.o [1]
+  .text                 ro code  0x00005c30    0x58  memchr.o [5]
+  .text                 ro code  0x00005c88     0xc  errno.o [3]
+  .text                 ro code  0x00005c94   0x1d8  SPI_A7139.o [1]
+  .text                 ro code  0x00005e6c     0x2  xtls.o [3]
+  .rodata               const    0x00005e70   0x200  hb_protocol.o [1]
+  .text                 ro code  0x00006070   0x160  freertos_dspi.o [1]
+  .text                 ro code  0x000061d0    0x70  clock_config.o [1]
+  .text                 ro code  0x00006240    0x1c  board.o [1]
+  .rodata               const    0x0000625c    0x88  pin_mux.o [1]
+  .rodata               const    0x000062e4    0x44  fsl_clock.o [1]
+  .rodata               const    0x00006328    0x44  fsl_dspi.o [1]
+  .rodata               const    0x0000636c    0x44  fsl_gpio.o [1]
+  .rodata               const    0x000063b0    0x44  fsl_uart.o [1]
+  .rodata               const    0x000063f4    0x40  fsl_dspi.o [1]
+  .rodata               const    0x00006434    0x40  fsl_dspi.o [1]
+  .rodata               const    0x00006474    0x40  fsl_uart.o [1]
+  .rodata               const    0x000064b4    0x40  fsl_uart.o [1]
+  .text                 ro code  0x000064f4    0x40  zero_init3.o [5]
+  .text                 ro code  0x00006534    0x34  system_MK24F25612.o [1]
+  Initializer bytes     const    0x00006568    0x34  <for RW-1>
+  .rodata               const    0x0000659c    0x30  SPI_A7139.o [1]
+  .rodata               const    0x000065cc    0x2c  fsl_common.o [1]
+  .text                 ro code  0x000065f8    0x2c  copy_init3.o [5]
+  .rodata               const    0x00006624    0x28  fsl_dspi.o [1]
+  .rodata               const    0x0000664c    0x28  fsl_gpio.o [1]
+  .text                 ro code  0x00006674    0x28  data_init.o [5]
+  .rodata               const    0x0000669c    0x24  simple_console.o [1]
+  .text                 ro code  0x000066c0    0x24  startup_MK24F25612.o [1]
+  .text                 ro code  0x000066e4    0x22  fpinit_M.o [4]
+  .iar.init_table       const    0x00006708    0x24  - Linker created -
+  .rodata               const    0x0000672c    0x20  A7139_CONFIG.o [1]
+  .rodata               const    0x0000674c    0x20  A7139_CONFIG.o [1]
+  .rodata               const    0x0000676c    0x20  clock_config.o [1]
+  .rodata               const    0x0000678c    0x20  fota_test.o [1]
+  .rodata               const    0x000067ac    0x20  simple_console.o [1]
+  .rodata               const    0x000067cc    0x1c  fota_test.o [1]
+  .rodata               const    0x000067e8    0x1c  freertos_dspi.o [1]
+  .rodata               const    0x00006804    0x1c  fsl_uart.o [1]
+  .text                 ro code  0x00006820    0x1a  cmain.o [5]
+  .text                 ro code  0x0000683a     0x4  low_level_init.o [3]
+  .text                 ro code  0x0000683e     0x4  exit.o [3]
+  .text                 ro code  0x00006844     0xa  cexit.o [5]
+  .text                 ro code  0x00006850    0x14  exit.o [6]
+  .rodata               const    0x00006864    0x18  fsl_uart.o [1]
+  .rodata               const    0x0000687c    0x18  fsl_uart.o [1]
+  .rodata               const    0x00006894    0x18  fsl_uart.o [1]
+  .rodata               const    0x000068ac    0x18  hb_protocol.o [1]
+  .rodata               const    0x000068c4    0x18  hb_protocol.o [1]
+  .rodata               const    0x000068dc    0x18  simple_console.o [1]
+  .rodata               const    0x000068f4    0x14  freertos_dspi.o [1]
+  .rodata               const    0x00006908    0x14  freertos_dspi.o [1]
+  .rodata               const    0x0000691c    0x14  fsl_dspi.o [1]
+  .rodata               const    0x00006930    0x14  fsl_gpio.o [1]
+  .rodata               const    0x00006944    0x14  fsl_gpio.o [1]
+  .rodata               const    0x00006958    0x14  hb_protocol.o [1]
+  .rodata               const    0x0000696c    0x14  simple_console.o [1]
+  .rodata               const    0x00006980    0x10  freertos_dspi.o [1]
+  .rodata               const    0x00006990    0x10  fsl_clock.o [1]
+  .rodata               const    0x000069a0    0x10  fsl_clock.o [1]
+  .rodata               const    0x000069b0    0x10  fsl_dspi.o [1]
+  .rodata               const    0x000069c0    0x10  fsl_dspi.o [1]
+  .rodata               const    0x000069d0    0x10  fsl_dspi.o [1]
+  .rodata               const    0x000069e0    0x10  fsl_dspi.o [1]
+  .rodata               const    0x000069f0    0x10  fsl_dspi.o [1]
+  .rodata               const    0x00006a00    0x10  fsl_uart.o [1]
+  .rodata               const    0x00006a10     0xc  A7139_CONFIG.o [1]
+  .rodata               const    0x00006a1c     0xc  fota_test.o [1]
+  .rodata               const    0x00006a28     0xc  freertos_dspi.o [1]
+  .rodata               const    0x00006a34     0xc  fsl_clock.o [1]
+  .rodata               const    0x00006a40     0xc  fsl_clock.o [1]
+  .rodata               const    0x00006a4c     0xc  fsl_dspi.o [1]
+  .rodata               const    0x00006a58     0xc  fsl_dspi.o [1]
+  .rodata               const    0x00006a64     0xc  fsl_uart.o [1]
+  .rodata               const    0x00006a70     0xc  fsl_uart.o [1]
+  .rodata               const    0x00006a7c     0xc  simple_console.o [1]
+  .rodata               const    0x00006a88     0xc  simple_console.o [1]
+  .text                 ro code  0x00006a94     0xc  cstartup_M.o [5]
+  .rodata               const    0x00006aa0     0x8  fsl_clock.o [1]
+  .rodata               const    0x00006aa8     0x8  fsl_dspi.o [1]
+  .rodata               const    0x00006ab0     0x8  fsl_dspi.o [1]
+  .rodata               const    0x00006ab8     0x8  fsl_gpio.o [1]
+  .rodata               const    0x00006ac0     0x8  fsl_uart.o [1]
+  .rodata               const    0x00006ac8     0x8  fsl_uart.o [1]
+  .rodata               const    0x00006ad0     0x8  fsl_uart.o [1]
+  .rodata               const    0x00006ad8     0x8  fsl_uart.o [1]
+  .rodata               const    0x00006ae0     0x8  fsl_uart.o [1]
+  .rodata               const    0x00006ae8     0x8  hb_protocol.o [1]
+  .rodata               const    0x00006af0     0x8  pin_mux.o [1]
+  .rodata               const    0x00006af8     0x8  tasks.o [1]
+  .rodata               const    0x00006b00     0x8  timers.o [1]
+  .rodata               const    0x00006b08     0x8  timers.o [1]
+  .text                 ro code  0x00006b10     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006b18     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006b20     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006b28     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006b30     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006b38     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006b40     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006b48     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006b50     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006b58     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006b60     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006b68     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006b70     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006b78     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006b80     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006b88     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006b90     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006b98     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006ba0     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006ba8     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006bb0     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006bb8     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006bc0     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006bc8     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006bd0     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006bd8     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006be0     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006be8     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006bf0     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006bf8     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006c00     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006c08     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006c10     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006c18     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006c20     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006c28     0x8  startup_MK24F25612.o [1]
+  .text                 ro code  0x00006c30     0x8  startup_MK24F25612.o [1]
+  .rodata               const    0x00006c38     0x4  freertos_dspi.o [1]
+  .rodata               const    0x00006c3c     0x4  fsl_dspi.o [1]
+  .rodata               const    0x00006c40     0x4  heap_4.o [1]
+  .rodata               const    0x00006c44     0x4  pin_mux.o [1]
+  .rodata               const    0x00006c48     0x4  pin_mux.o [1]
+  .rodata               const    0x00006c4c     0x4  pin_mux.o [1]
+  .rodata               const    0x00006c50     0x4  pin_mux.o [1]
+  .rodata               const    0x00006c54     0x4  pin_mux.o [1]
+  .rodata               const    0x00006c58     0x4  pin_mux.o [1]
+  .rodata               const    0x00006c5c     0x4  pin_mux.o [1]
+  .rodata               const    0x00006c60     0x4  port.o [1]
+  .rodata               const    0x00006c64     0x4  simple_console.o [1]
+  .rodata               const    0x00006c68     0x4  SPI_A7139.o [1]
+  .text                 ro code  0x00006c6c     0x4  startup_MK24F25612.o [1]
+  .rodata               const    0x00006c70     0x0  zero_init3.o [5]
+  .rodata               const    0x00006c70     0x0  copy_init3.o [5]
+                               - 0x00006c70  0x6860
+
+"P3-P4", part 1 of 2:                          0x34
+  RW                             0x1fff0000    0x34  <Block>
+    RW-1                         0x1fff0000    0x34  <Init block>
+      .data             inited   0x1fff0000     0x4  fsl_clock.o [1]
+      .data             inited   0x1fff0004     0x4  fsl_clock.o [1]
+      .data             inited   0x1fff0008     0x4  port.o [1]
+      .data             inited   0x1fff000c     0x4  simple_console.o [1]
+      .data             inited   0x1fff0010    0x18  simple_console.o [1]
+      .data             inited   0x1fff0028     0x4  SPI_A7139.o [1]
+      .data             inited   0x1fff002c     0x4  system_MK24F25612.o [1]
+      __DLIB_PERTHREAD  inited   0x1fff0030     0x4  errno.o [3]
+                               - 0x1fff0034    0x34
+
+"P3-P4", part 2 of 2:                        0xf3b4
+  ZI                             0x1fff0034  0xf3b4  <Block>
+    .bss                zero     0x1fff0034     0x4  fsl_clock.o [1]
+    .bss                zero     0x1fff0038     0x4  fsl_clock.o [1]
+    .bss                zero     0x1fff003c    0x10  fsl_debug_console.o [1]
+    .bss                zero     0x1fff004c     0xc  fsl_dspi.o [1]
+    .bss                zero     0x1fff0058     0x4  fsl_dspi.o [1]
+    .bss                zero     0x1fff005c     0x4  fsl_dspi.o [1]
+    .bss                zero     0x1fff0060    0x18  fsl_uart.o [1]
+    .bss                zero     0x1fff0078     0x4  fsl_uart.o [1]
+    .bss                zero     0x1fff007c    0x1c  hb_protocol.o [1]
+    .bss                zero     0x1fff0098  0xf000  heap_4.o [1]
+    .bss                zero     0x1ffff098     0x8  heap_4.o [1]
+    .bss                zero     0x1ffff0a0     0x4  heap_4.o [1]
+    .bss                zero     0x1ffff0a4     0x4  heap_4.o [1]
+    .bss                zero     0x1ffff0a8     0x4  heap_4.o [1]
+    .bss                zero     0x1ffff0ac     0x4  heap_4.o [1]
+    .bss                zero     0x1ffff0b0     0x4  port.o [1]
+    .bss                zero     0x1ffff0b4    0x40  queue.o [1]
+    .bss                zero     0x1ffff0f4    0x44  simple_console.o [1]
+    .bss                zero     0x1ffff138    0x28  simple_console.o [1]
+    .bss                zero     0x1ffff160    0x30  simple_console.o [1]
+    .bss                zero     0x1ffff190    0x80  simple_console.o [1]
+    .bss                zero     0x1ffff210    0x40  SPI_A7139.o [1]
+    .bss                zero     0x1ffff250     0x4  SPI_A7139.o [1]
+    .bss                zero     0x1ffff254     0x4  SPI_A7139.o [1]
+    .bss                zero     0x1ffff258     0x4  SPI_A7139.o [1]
+    .bss                zero     0x1ffff25c     0x4  tasks.o [1]
+    .bss                zero     0x1ffff260    0xb4  tasks.o [1]
+    .bss                zero     0x1ffff314    0x14  tasks.o [1]
+    .bss                zero     0x1ffff328    0x14  tasks.o [1]
+    .bss                zero     0x1ffff33c     0x4  tasks.o [1]
+    .bss                zero     0x1ffff340     0x4  tasks.o [1]
+    .bss                zero     0x1ffff344    0x14  tasks.o [1]
+    .bss                zero     0x1ffff358    0x14  tasks.o [1]
+    .bss                zero     0x1ffff36c     0x4  tasks.o [1]
+    .bss                zero     0x1ffff370    0x14  tasks.o [1]
+    .bss                zero     0x1ffff384     0x4  tasks.o [1]
+    .bss                zero     0x1ffff388     0x4  tasks.o [1]
+    .bss                zero     0x1ffff38c     0x4  tasks.o [1]
+    .bss                zero     0x1ffff390     0x4  tasks.o [1]
+    .bss                zero     0x1ffff394     0x4  tasks.o [1]
+    .bss                zero     0x1ffff398     0x4  tasks.o [1]
+    .bss                zero     0x1ffff39c     0x4  tasks.o [1]
+    .bss                zero     0x1ffff3a0     0x4  tasks.o [1]
+    .bss                zero     0x1ffff3a4     0x4  tasks.o [1]
+    .bss                zero     0x1ffff3a8     0x4  tasks.o [1]
+    .bss                zero     0x1ffff3ac    0x14  timers.o [1]
+    .bss                zero     0x1ffff3c0    0x14  timers.o [1]
+    .bss                zero     0x1ffff3d4     0x4  timers.o [1]
+    .bss                zero     0x1ffff3d8     0x4  timers.o [1]
+    .bss                zero     0x1ffff3dc     0x4  timers.o [1]
+    .bss                zero     0x1ffff3e0     0x4  timers.o [1]
+    .bss                zero     0x1ffff3e4     0x1  port.o [1]
+                               - 0x1ffff3e8  0xf3b4
+
+"P6":                                         0x400
+  CSTACK                         0x2002fc00   0x400  <Block>
+    CSTACK              uninit   0x2002fc00   0x400  <Block tail>
+                               - 0x20030000   0x400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xf3b1:
+          0x1fff0034  0xf3b1
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x34:
+          0x00006568    0x34
+    1 destination range, total size 0x34:
+          0x1fff0000    0x34
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj: [1]
+    A7139.o                  1 068
+    A7139_CONFIG.o                       76
+    SPI_A7139.o                472       56       80
+    board.o                     28
+    clock_config.o             112       32
+    event_groups.o             684
+    fota_test.o                328       72
+    freertos_dspi.o            352      100
+    fsl_clock.o              1 896      140       16
+    fsl_common.o                24       44
+    fsl_debug_console.o      1 046                16
+    fsl_dspi.o               2 392      380       20
+    fsl_dspi_freertos.o        314
+    fsl_gpio.o                 180      156
+    fsl_uart.o               2 612      376       28
+    fsl_uart_freertos.o        776
+    hb_protocol.o              704      588       28
+    heap_4.o                   608        4   61 464
+    list.o                     152
+    pin_mux.o                  928      172
+    port.o                     600        8        9
+    portasm.o                  168
+    queue.o                  2 074                64
+    simple_console.o           728      168      312
+    startup_MK24F25612.o     1 388
+    system_MK24F25612.o         52        4        4
+    tasks.o                  3 368        8      336
+    timers.o                 1 208       16       56
+    ------------------------------------------------
+    Total:                  24 262    2 400   62 433
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    errno.o                     12        4        4
+    exit.o                       4
+    low_level_init.o             4
+    strtoul.o                    4
+    xstoul.o                   412
+    xtls.o                       2
+    ------------------------------------------------
+    Total:                     438        4        4
+
+m7M_tls.a: [4]
+    fpinit_M.o                  34
+    ------------------------------------------------
+    Total:                      34
+
+rt7M_tl.a: [5]
+    ABImemcpy_unaligned.o      118
+    ABImemset.o                102
+    cexit.o                     10
+    cmain.o                     26
+    copy_init3.o                44
+    cstartup_M.o                12
+    data_init.o                 40
+    memchr.o                    88
+    strlen.o                    54
+    zero_init3.o                64
+    ------------------------------------------------
+    Total:                     558
+
+shb_l.a: [6]
+    exit.o                      20
+    ------------------------------------------------
+    Total:                      20
+
+    Gaps                         4        4
+    Linker created                       36    1 024
+----------------------------------------------------
+    Grand Total:            25 316    2 444   63 461
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x00006708           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0000672c           --   Gb  - Linker created -
+?main                   0x00006821          Code  Gb  cmain.o [5]
+A7139Config             0x0000672c    0x20  Data  Gb  A7139_CONFIG.o [1]
+A7139Config_PageA       0x0000674c    0x20  Data  Gb  A7139_CONFIG.o [1]
+A7139Config_PageB       0x00006a10     0xc  Data  Gb  A7139_CONFIG.o [1]
+A7139EventGroup         0x1ffff250     0x4  Data  Gb  SPI_A7139.o [1]
+A7139_Cal               0x000045a7    0xba  Code  Lc  A7139.o [1]
+A7139_Config            0x000044ff    0xa8  Code  Lc  A7139.o [1]
+A7139_GetCID            0x000046c5    0x24  Code  Gb  A7139.o [1]
+A7139_INFS_Mode         0x0000479b    0x7e  Code  Gb  A7139.o [1]
+A7139_Init              0x00004671    0x24  Code  Gb  A7139.o [1]
+A7139_ReadFIFO          0x0000475d    0x24  Code  Gb  A7139.o [1]
+A7139_ReadReg           0x00004479    0x3a  Code  Lc  A7139.o [1]
+A7139_SPI_Handle        0x1ffff210    0x40  Data  Gb  SPI_A7139.o [1]
+A7139_SetCID            0x00004695    0x30  Code  Gb  A7139.o [1]
+A7139_SetGIO2_Func      0x00004781    0x1a  Code  Gb  A7139.o [1]
+A7139_SetPackLen        0x000046e9    0x4e  Code  Gb  A7139.o [1]
+A7139_StrobeCmd         0x00004661    0x10  Code  Gb  A7139.o [1]
+A7139_WriteFIFO         0x00004737    0x26  Code  Gb  A7139.o [1]
+A7139_WritePageA        0x000044b3    0x26  Code  Lc  A7139.o [1]
+A7139_WritePageB        0x000044d9    0x26  Code  Lc  A7139.o [1]
+A7139_WriteReg          0x00004441    0x38  Code  Lc  A7139.o [1]
+BOARD_BootClockRUN      0x000061e1    0x3e  Code  Gb  clock_config.o [1]
+BOARD_InitDebugConsole  0x00006241    0x1c  Code  Gb  board.o [1]
+BOARD_InitPins          0x000049fd   0x2fa  Code  Gb  pin_mux.o [1]
+CLOCK_BootToPeeMode     0x000043c9    0x4c  Code  Gb  fsl_clock.o [1]
+CLOCK_EnableClock       0x00003397    0x18  Code  Lc  fsl_dspi.o [1]
+CLOCK_EnableClock       0x000024fb    0x18  Code  Lc  fsl_uart.o [1]
+CLOCK_EnableClock       0x000049a9    0x18  Code  Lc  pin_mux.o [1]
+CLOCK_EnablePll0        0x00004255    0x64  Code  Gb  fsl_clock.o [1]
+CLOCK_GetBusClkFreq     0x00003f47    0x18  Code  Gb  fsl_clock.o [1]
+CLOCK_GetEr32kClkFreq   0x00003eb5    0x60  Code  Gb  fsl_clock.o [1]
+CLOCK_GetFixedFreqClkFreq
+                        0x000040c7    0x1e  Code  Gb  fsl_clock.o [1]
+CLOCK_GetFllExtRefClkFreq
+                        0x00003dad    0x66  Code  Lc  fsl_clock.o [1]
+CLOCK_GetFllFreq        0x00004067    0x4a  Code  Gb  fsl_clock.o [1]
+CLOCK_GetFllFreq::fllFactorTable
+                        0x000069a0    0x10  Data  Lc  fsl_clock.o [1]
+CLOCK_GetFllRefClkFreq  0x00003e39    0x20  Code  Lc  fsl_clock.o [1]
+CLOCK_GetFreq           0x00003f5f    0xb0  Code  Gb  fsl_clock.o [1]
+CLOCK_GetInternalRefClkFreq
+                        0x000040b1    0x16  Code  Gb  fsl_clock.o [1]
+CLOCK_GetInternalRefClkSelectFreq
+                        0x00003e13    0x26  Code  Lc  fsl_clock.o [1]
+CLOCK_GetMcgExtClkFreq  0x00003d41    0x6c  Code  Lc  fsl_clock.o [1]
+CLOCK_GetOsc0ErClkFreq  0x00003e7f    0x36  Code  Gb  fsl_clock.o [1]
+CLOCK_GetOscRangeFromFreq
+                        0x00003e61    0x1e  Code  Lc  fsl_clock.o [1]
+CLOCK_GetOutClkFreq     0x0000402f    0x38  Code  Gb  fsl_clock.o [1]
+CLOCK_GetPll0Freq       0x000040e5    0x54  Code  Gb  fsl_clock.o [1]
+CLOCK_GetPll0RefFreq    0x00003e59     0x8  Code  Lc  fsl_clock.o [1]
+CLOCK_GetPllFllSelClkFreq
+                        0x00003f15    0x32  Code  Gb  fsl_clock.o [1]
+CLOCK_InitOsc0          0x000042b9    0x52  Code  Gb  fsl_clock.o [1]
+CLOCK_SetEr32kClock     0x00003cd9    0x1a  Code  Lc  fsl_clock.o [1]
+CLOCK_SetExternalRefClkConfig
+                        0x00004139    0x62  Code  Gb  fsl_clock.o [1]
+CLOCK_SetInternalRefClkConfig
+                        0x0000419b    0xba  Code  Gb  fsl_clock.o [1]
+CLOCK_SetPbeMode        0x00004349    0x6e  Code  Gb  fsl_clock.o [1]
+CLOCK_SetPllFllSelClock
+                        0x00003cf3    0x1a  Code  Lc  fsl_clock.o [1]
+CLOCK_SetRtcClkOutClock
+                        0x00003d0d    0x1a  Code  Lc  fsl_clock.o [1]
+CLOCK_SetSimConfig      0x0000400f    0x20  Code  Gb  fsl_clock.o [1]
+CLOCK_SetSimSafeDivs    0x000061d1     0xa  Code  Lc  clock_config.o [1]
+CLOCK_SetXtal0Freq      0x000061db     0x6  Code  Lc  clock_config.o [1]
+CSTACK$$Base            0x2002fc00           --   Gb  - Linker created -
+CSTACK$$Limit           0x20030000           --   Gb  - Linker created -
+DSPI_ClearStatusFlags   0x000033d7     0x4  Code  Lc  fsl_dspi.o [1]
+DSPI_CommonIRQHandler   0x00003bfd    0x28  Code  Lc  fsl_dspi.o [1]
+DSPI_DisableInterrupts  0x000033db     0xa  Code  Lc  fsl_dspi.o [1]
+DSPI_Enable             0x000033b9    0x1a  Code  Lc  fsl_dspi.o [1]
+DSPI_EnableInterrupts   0x000037e1    0x20  Code  Gb  fsl_dspi.o [1]
+DSPI_FlushFifo          0x00003411    0x16  Code  Lc  fsl_dspi.o [1]
+DSPI_GetInstance        0x00003451    0x32  Code  Gb  fsl_dspi.o [1]
+DSPI_GetStatusFlags     0x000033d3     0x4  Code  Lc  fsl_dspi.o [1]
+DSPI_IsMaster           0x000033f5     0x8  Code  Lc  fsl_dspi.o [1]
+DSPI_MasterGetFormattedCommand
+                        0x00003427    0x26  Code  Lc  fsl_dspi.o [1]
+DSPI_MasterInit         0x00003483    0xfe  Code  Gb  fsl_dspi.o [1]
+DSPI_MasterSetBaudRate  0x000035a3    0xbc  Code  Gb  fsl_dspi.o [1]
+DSPI_MasterSetDelayScaler
+                        0x0000365f    0x9e  Code  Gb  fsl_dspi.o [1]
+DSPI_MasterSetDelayTimes
+                        0x000036fd    0xe4  Code  Gb  fsl_dspi.o [1]
+DSPI_MasterTransferComplete
+                        0x00003997    0x3a  Code  Lc  fsl_dspi.o [1]
+DSPI_MasterTransferCreateHandle
+                        0x00003801    0x40  Code  Gb  fsl_dspi.o [1]
+DSPI_MasterTransferFillUpTxFifo
+                        0x000039d5   0x106  Code  Lc  fsl_dspi.o [1]
+DSPI_MasterTransferHandleIRQ
+                        0x00003af1    0xde  Code  Gb  fsl_dspi.o [1]
+DSPI_MasterTransferNonBlocking
+                        0x00003917    0x80  Code  Gb  fsl_dspi.o [1]
+DSPI_MasterTransferPrepare
+                        0x00003841    0xd6  Code  Lc  fsl_dspi.o [1]
+DSPI_RTOS_Callback      0x0000486d    0x22  Code  Lc  fsl_dspi_freertos.o [1]
+DSPI_RTOS_Init          0x0000488f    0x6e  Code  Gb  fsl_dspi_freertos.o [1]
+DSPI_RTOS_Transfer      0x00004905    0x5c  Code  Gb  fsl_dspi_freertos.o [1]
+DSPI_ReadData           0x0000344d     0x4  Code  Lc  fsl_dspi.o [1]
+DSPI_SetMasterSlaveMode
+                        0x000033e5    0x10  Code  Lc  fsl_dspi.o [1]
+DSPI_SetOnePcsPolarity  0x00003581    0x22  Code  Lc  fsl_dspi.o [1]
+DSPI_StartTransfer      0x000033fd     0xa  Code  Lc  fsl_dspi.o [1]
+DSPI_StopTransfer       0x00003407     0xa  Code  Lc  fsl_dspi.o [1]
+DbgConsole_ConvertRadixNumToString
+                        0x0000303d    0x82  Code  Lc  fsl_debug_console.o [1]
+DbgConsole_Init         0x00002f65    0x5c  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_Printf       0x00002fc1    0x22  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_PrintfFormattedData
+                        0x000030bf   0x288  Code  Lc  fsl_debug_console.o [1]
+DbgConsole_PrintfPaddingCharacter
+                        0x00003015    0x28  Code  Lc  fsl_debug_console.o [1]
+DbgConsole_Putchar      0x00002fe5    0x22  Code  Gb  fsl_debug_console.o [1]
+DelayBlinkRfCallback    0x00006079    0x1e  Code  Lc  freertos_dspi.o [1]
+DisableGlobalIRQ        0x0000251d     0x8  Code  Lc  fsl_uart.o [1]
+DisableIRQ              0x00005ce9     0xa  Code  Lc  SPI_A7139.o [1]
+EInt_GIO2_Disable       0x00005d8b     0xa  Code  Gb  SPI_A7139.o [1]
+EInt_GIO2_Enable        0x00005d95     0xa  Code  Gb  SPI_A7139.o [1]
+EInt_GIO2_Init          0x00005d5f    0x2c  Code  Gb  SPI_A7139.o [1]
+EnableGlobalIRQ         0x00002525     0x6  Code  Lc  fsl_uart.o [1]
+EnableIRQ               0x000033af     0xa  Code  Lc  fsl_dspi.o [1]
+EnableIRQ               0x00002513     0xa  Code  Lc  fsl_uart.o [1]
+EnableIRQ               0x00005cdf     0xa  Code  Lc  SPI_A7139.o [1]
+FIFO_event              0x1ffff254     0x4  Data  Gb  SPI_A7139.o [1]
+GIO2S                   0x1fff0028     0x4  Data  Gb  SPI_A7139.o [1]
+GIO2_FLAG               0x1ffff258     0x4  Data  Gb  SPI_A7139.o [1]
+GPIO_ClearPinsInterruptFlags
+                        0x00004dd1    0x16  Code  Gb  fsl_gpio.o [1]
+GPIO_ClearPinsOutput    0x00006075     0x4  Code  Lc  freertos_dspi.o [1]
+GPIO_GetInstance        0x00004d63    0x2c  Code  Lc  fsl_gpio.o [1]
+GPIO_PinInit            0x00004d8f    0x42  Code  Gb  fsl_gpio.o [1]
+GPIO_ReadPinInput       0x00005971     0xa  Code  Lc  hb_protocol.o [1]
+GPIO_SetPinsOutput      0x00006071     0x4  Code  Lc  freertos_dspi.o [1]
+GPIO_WritePinOutput     0x00004d49    0x1a  Code  Lc  fsl_gpio.o [1]
+NVIC_DisableIRQ         0x00005ca9    0x14  Code  Lc  SPI_A7139.o [1]
+NVIC_EnableIRQ          0x00003381    0x16  Code  Lc  fsl_dspi.o [1]
+NVIC_EnableIRQ          0x000024e5    0x16  Code  Lc  fsl_uart.o [1]
+NVIC_EnableIRQ          0x00005c95    0x14  Code  Lc  SPI_A7139.o [1]
+NVIC_SetPriority        0x000053b1    0x26  Code  Lc  simple_console.o [1]
+NVIC_SetPriority        0x00005cbd    0x22  Code  Lc  SPI_A7139.o [1]
+OSC_SetCapLoad          0x00003d35     0xc  Code  Lc  fsl_clock.o [1]
+OSC_SetExtRefClkConfig  0x00003d27     0xe  Code  Lc  fsl_clock.o [1]
+PORTC_IRQHandler        0x00005d0b    0x54  Code  Gb  SPI_A7139.o [1]
+PORT_SetPinConfig       0x000049c1    0x24  Code  Lc  pin_mux.o [1]
+PORT_SetPinInterruptConfig
+                        0x00005cf3    0x18  Code  Lc  SPI_A7139.o [1]
+PORT_SetPinMux          0x000049e5    0x18  Code  Lc  pin_mux.o [1]
+PendSV_Handler          0x00001ba9          Code  Gb  portasm.o [1]
+RW$$Base                0x1fff0000           --   Gb  - Linker created -
+RW$$Limit               0x1fff0034           --   Gb  - Linker created -
+Region$$Table$$Base     0x00006708           --   Gb  - Linker created -
+Region$$Table$$Limit    0x0000672c           --   Gb  - Linker created -
+SPI0_DriverIRQHandler   0x00003c25    0x26  Code  Gb  fsl_dspi.o [1]
+SPI1_DriverIRQHandler   0x00003c4b    0x26  Code  Gb  fsl_dspi.o [1]
+SPI2_DriverIRQHandler   0x00003c79    0x26  Code  Gb  fsl_dspi.o [1]
+SPI_A7139_INIT          0x00005d9f    0x92  Code  Gb  SPI_A7139.o [1]
+SPI_RTOS_Read           0x0000498b    0x1c  Code  Gb  fsl_dspi_freertos.o [1]
+SPI_RTOS_Write          0x00004961    0x2a  Code  Gb  fsl_dspi_freertos.o [1]
+SVC_Handler             0x00001c01          Code  Gb  portasm.o [1]
+SysTick_Handler         0x000012bf    0x2c  Code  Gb  port.o [1]
+SystemCoreClock         0x1fff002c     0x4  Data  Gb  system_MK24F25612.o [1]
+SystemInit              0x00006535    0x26  Code  Gb  system_MK24F25612.o [1]
+UART0_DriverIRQHandler  0x00002e21    0x10  Code  Gb  fsl_uart.o [1]
+UART0_RX_TX_DriverIRQHandler
+                        0x00002e31     0x8  Code  Gb  fsl_uart.o [1]
+UART1_DriverIRQHandler  0x00002e39    0x10  Code  Gb  fsl_uart.o [1]
+UART1_RX_TX_DriverIRQHandler
+                        0x00002e49     0x8  Code  Gb  fsl_uart.o [1]
+UART2_DriverIRQHandler  0x00002e51    0x10  Code  Gb  fsl_uart.o [1]
+UART2_RX_TX_DriverIRQHandler
+                        0x00002e61     0x8  Code  Gb  fsl_uart.o [1]
+UART3_DriverIRQHandler  0x00002e69    0x10  Code  Gb  fsl_uart.o [1]
+UART3_RX_TX_DriverIRQHandler
+                        0x00002e79     0x8  Code  Gb  fsl_uart.o [1]
+UART4_DriverIRQHandler  0x00002e81    0x10  Code  Gb  fsl_uart.o [1]
+UART4_RX_TX_DriverIRQHandler
+                        0x00002e99     0x8  Code  Gb  fsl_uart.o [1]
+UART5_DriverIRQHandler  0x00002ea1    0x10  Code  Gb  fsl_uart.o [1]
+UART5_RX_TX_DriverIRQHandler
+                        0x00002f11     0x8  Code  Gb  fsl_uart.o [1]
+UART_ClearStatusFlags   0x00002857    0x40  Code  Gb  fsl_uart.o [1]
+UART_DisableInterrupts  0x00002815    0x28  Code  Gb  fsl_uart.o [1]
+UART_EnableInterrupts   0x000027ef    0x26  Code  Gb  fsl_uart.o [1]
+UART_EnableRx           0x00002f4b    0x1a  Code  Lc  fsl_debug_console.o [1]
+UART_EnableRx           0x00004e17    0x1a  Code  Lc  fsl_uart_freertos.o [1]
+UART_EnableTx           0x00002f31    0x1a  Code  Lc  fsl_debug_console.o [1]
+UART_EnableTx           0x00004dfd    0x1a  Code  Lc  fsl_uart_freertos.o [1]
+UART_GetDefaultConfig   0x000027b3    0x3c  Code  Gb  fsl_uart.o [1]
+UART_GetInstance        0x0000252b    0x34  Code  Gb  fsl_uart.o [1]
+UART_GetStatusFlags     0x0000283d    0x1a  Code  Gb  fsl_uart.o [1]
+UART_Init               0x000025cd   0x1e6  Code  Gb  fsl_uart.o [1]
+UART_RTOS_Callback      0x00004e31    0x84  Code  Lc  fsl_uart_freertos.o [1]
+UART_RTOS_Init          0x00004eb5    0xf6  Code  Gb  fsl_uart_freertos.o [1]
+UART_RTOS_Receive       0x0000501f    0xde  Code  Gb  fsl_uart_freertos.o [1]
+UART_RTOS_Send          0x00004fab    0x74  Code  Gb  fsl_uart_freertos.o [1]
+UART_ReadBlocking       0x000028df    0x68  Code  Gb  fsl_uart.o [1]
+UART_ReadNonBlocking    0x00002947    0x30  Code  Lc  fsl_uart.o [1]
+UART_TransferAbortReceive
+                        0x00002c0d    0x36  Code  Gb  fsl_uart.o [1]
+UART_TransferCreateHandle
+                        0x00002977    0x64  Code  Gb  fsl_uart.o [1]
+UART_TransferGetRxRingBufferLength
+                        0x0000255f    0x3c  Code  Gb  fsl_uart.o [1]
+UART_TransferHandleIRQ  0x00002c45   0x1dc  Code  Gb  fsl_uart.o [1]
+UART_TransferIsRxRingBufferFull
+                        0x0000259b    0x32  Code  Lc  fsl_uart.o [1]
+UART_TransferReceiveNonBlocking
+                        0x00002ac7   0x146  Code  Gb  fsl_uart.o [1]
+UART_TransferSendNonBlocking
+                        0x00002a2d    0x9a  Code  Gb  fsl_uart.o [1]
+UART_TransferStartRingBuffer
+                        0x000029db    0x52  Code  Gb  fsl_uart.o [1]
+UART_WriteBlocking      0x00002897    0x18  Code  Gb  fsl_uart.o [1]
+UART_WriteNonBlocking   0x000028af    0x30  Code  Lc  fsl_uart.o [1]
+ZI$$Base                0x1fff0034           --   Gb  - Linker created -
+ZI$$Limit               0x1ffff3e8           --   Gb  - Linker created -
+__RAM_VECTOR_TABLE_SIZE {Abs}
+                        0x00000000          Data  Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x00000000          Data  Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00000000          Data  Gb  command line/config [2]
+__Vectors               0x00000000           --   Gb  startup_MK24F25612.o [1]
+__Vectors_End           0x00000400          Data  Gb  startup_MK24F25612.o [1]
+__Vectors_Size {Abs}    0x00000400           --   Gb  startup_MK24F25612.o [1]
+__aeabi_assert          0x00002f19    0x12  Code  Gb  fsl_common.o [1]
+__aeabi_errno_addr      0x00005c89     0x6  Code  Gb  errno.o [3]
+__aeabi_memset          0x00001b41          Code  Gb  ABImemset.o [5]
+__cmain                 0x00006821          Code  Gb  cmain.o [5]
+__exit                  0x00006851    0x14  Code  Gb  exit.o [6]
+__iar_Errno             0x1fff0030     0x4  Data  Gb  errno.o [3]
+__iar_Memchr            0x00005c31          Code  Gb  memchr.o [5]
+__iar_Memset            0x00001b41          Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x00001b49          Code  Gb  ABImemset.o [5]
+__iar_Stoul             0x0000591d     0x4  Code  Gb  xstoul.o [3]
+__iar_Stoulx            0x000057d5   0x142  Code  Gb  xstoul.o [3]
+__iar_copy_init3        0x000065f9    0x2c  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x00006675    0x28  Code  Gb  data_init.o [5]
+__iar_dlib_perthread_access
+                        0x00005e6d     0x2  Code  Gb  xtls.o [3]
+__iar_init_vfp          0x000066e5          Code  Gb  fpinit_M.o [4]
+__iar_program_start     0x00006a95          Code  Gb  cstartup_M.o [5]
+__iar_unaligned___aeabi_memcpy
+                        0x0000246d          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x0000248d          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x0000248d          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_zero_init3        0x000064f5    0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0000683b     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000          Data  Gb  startup_MK24F25612.o [1]
+__vector_table_0x1c     0x0000001c          Data  Gb  startup_MK24F25612.o [1]
+_call_main              0x0000682d          Code  Gb  cmain.o [5]
+_exit                   0x00006845          Code  Gb  cexit.o [5]
+_main                   0x00006837          Code  Gb  cmain.o [5]
+console_background_buffer
+                        0x1ffff190    0x80  Data  Gb  simple_console.o [1]
+console_config          0x1fff0010    0x18  Data  Gb  simple_console.o [1]
+console_handle          0x1ffff138    0x28  Data  Gb  simple_console.o [1]
+crc_cal                 0x000059b5    0x2e  Code  Gb  hb_protocol.o [1]
+crc_cal::crc_ta_8       0x00005e70   0x200  Data  Lc  hb_protocol.o [1]
+delete_char             0x00005415    0x86  Code  Lc  simple_console.o [1]
+digits                  0x00005920    0x28  Data  Lc  xstoul.o [3]
+do_fota                 0x00005763    0x54  Code  Gb  fota_test.o [1]
+do_fota_process         0x00005721    0x42  Code  Lc  fota_test.o [1]
+erase_seq               0x00006c64     0x4  Data  Lc  simple_console.o [1]
+exit                    0x0000683f     0x4  Code  Gb  exit.o [3]
+g_defaultClockConfigRun
+                        0x0000676c    0x20  Data  Gb  clock_config.o [1]
+g_dspiHandle            0x1fff004c     0xc  Data  Lc  fsl_dspi.o [1]
+g_xtal0Freq             0x1fff0034     0x4  Data  Gb  fsl_clock.o [1]
+g_xtal32Freq            0x1fff0038     0x4  Data  Gb  fsl_clock.o [1]
+get_response            0x0000568d    0x94  Code  Lc  fota_test.o [1]
+getc                    0x000053d7    0x1a  Code  Gb  simple_console.o [1]
+init_A7139              0x0000597b    0x3a  Code  Gb  hb_protocol.o [1]
+lp_sleep_for_ms         0x000059e3     0x8  Code  Gb  hb_protocol.o [1]
+main                    0x0000612f    0x64  Code  Gb  freertos_dspi.o [1]
+memchr                  0x00005c31          Code  Gb  memchr.o [5]
+ndigs                   0x00005948    0x28  Data  Lc  xstoul.o [3]
+pcInterruptPriorityRegisters
+                        0x00006c60     0x4  Data  Lc  port.o [1]
+prvAddCurrentTaskToDelayedList
+                        0x00000e59    0x4a  Code  Lc  tasks.o [1]
+prvAllocateTCBAndStack  0x00000ead    0x4a  Code  Lc  tasks.o [1]
+prvCheckForValidListAndQueue
+                        0x00001837    0x64  Code  Lc  timers.o [1]
+prvCheckTasksWaitingTermination
+                        0x00000df5    0x64  Code  Lc  tasks.o [1]
+prvCopyDataFromQueue    0x0000230d    0x2a  Code  Lc  queue.o [1]
+prvCopyDataToQueue      0x00002287    0x86  Code  Lc  queue.o [1]
+prvDeleteTCB            0x00000ef7    0x12  Code  Lc  tasks.o [1]
+prvGetNextExpireTime    0x0000162f    0x2a  Code  Lc  timers.o [1]
+prvHeapInit             0x00001a63    0x64  Code  Lc  heap_4.o [1]
+prvIdleTask             0x00000d1d    0x24  Code  Lc  tasks.o [1]
+prvInitialiseTCBVariables
+                        0x00000d45    0x58  Code  Lc  tasks.o [1]
+prvInitialiseTaskLists  0x00000d9d    0x58  Code  Lc  tasks.o [1]
+prvInsertBlockIntoFreeList
+                        0x00001ac7    0x5c  Code  Lc  heap_4.o [1]
+prvInsertTimerInActiveList
+                        0x00001681    0x3e  Code  Lc  timers.o [1]
+prvIsQueueEmpty         0x000023a1    0x1c  Code  Lc  queue.o [1]
+prvIsQueueFull          0x000023bd    0x1e  Code  Lc  queue.o [1]
+prvProcessExpiredTimer  0x00001549    0x5c  Code  Lc  timers.o [1]
+prvProcessReceivedCommands
+                        0x000016bf    0xfa  Code  Lc  timers.o [1]
+prvProcessTimerOrBlockTask
+                        0x000015b9    0x76  Code  Lc  timers.o [1]
+prvResetNextTaskUnblockTime
+                        0x00000f09    0x28  Code  Lc  tasks.o [1]
+prvSampleTimeNow        0x00001659    0x28  Code  Lc  timers.o [1]
+prvSampleTimeNow::xLastTime
+                        0x1ffff3e0     0x4  Data  Lc  timers.o [1]
+prvSwitchTimerLists     0x000017b9    0x7e  Code  Lc  timers.o [1]
+prvTaskExitError        0x0000115d    0x2a  Code  Lc  port.o [1]
+prvTestWaitCondition    0x0000537b    0x1a  Code  Lc  event_groups.o [1]
+prvTimerTask            0x000015a5    0x14  Code  Lc  timers.o [1]
+prvUnlockQueue          0x00002337    0x6a  Code  Lc  queue.o [1]
+putc                    0x000053f1     0xe  Code  Gb  simple_console.o [1]
+puts                    0x000053ff    0x16  Code  Gb  simple_console.o [1]
+pvPortMalloc            0x000018e1   0x10c  Code  Gb  heap_4.o [1]
+pvTaskIncrementMutexHeldCount
+                        0x000010d7    0x1e  Code  Gb  tasks.o [1]
+pxCurrentTCB            0x1ffff25c     0x4  Data  Gb  tasks.o [1]
+pxCurrentTimerList      0x1ffff3d4     0x4  Data  Lc  timers.o [1]
+pxDelayedTaskList       0x1ffff33c     0x4  Data  Lc  tasks.o [1]
+pxEnd                   0x1ffff0a0     0x4  Data  Lc  heap_4.o [1]
+pxOverflowDelayedTaskList
+                        0x1ffff340     0x4  Data  Lc  tasks.o [1]
+pxOverflowTimerList     0x1ffff3d8     0x4  Data  Lc  timers.o [1]
+pxPortInitialiseStack   0x00001139    0x24  Code  Gb  port.o [1]
+pxReadyTasksLists       0x1ffff260    0xb4  Data  Lc  tasks.o [1]
+readline_to_buffer      0x0000549b    0xe2  Code  Gb  simple_console.o [1]
+recv_buffer             0x1ffff0f4    0x44  Data  Gb  simple_console.o [1]
+recv_packet             0x1fff007c    0x1c  Data  Gb  hb_protocol.o [1]
+rf_get_message_task     0x00006097    0x98  Code  Gb  freertos_dspi.o [1]
+rf_receive              0x00005a37    0x1c  Code  Gb  hb_protocol.o [1]
+rf_send_data_block      0x00005ab1    0xbc  Code  Gb  hb_protocol.o [1]
+rf_send_image           0x00005b6d    0x9a  Code  Gb  hb_protocol.o [1]
+rf_send_message         0x000059eb    0x4c  Code  Gb  hb_protocol.o [1]
+rf_send_then_receive    0x00005a53    0x5e  Code  Gb  hb_protocol.o [1]
+s_baudratePrescaler     0x000069e0    0x10  Data  Lc  fsl_dspi.o [1]
+s_baudrateScaler        0x000063f4    0x40  Data  Lc  fsl_dspi.o [1]
+s_debugConsole          0x1fff003c    0x10  Data  Lc  fsl_debug_console.o [1]
+s_delayPrescaler        0x000069f0    0x10  Data  Lc  fsl_dspi.o [1]
+s_delayScaler           0x00006434    0x40  Data  Lc  fsl_dspi.o [1]
+s_dspiBases             0x00006a4c     0xc  Data  Lc  fsl_dspi.o [1]
+s_dspiClock             0x00006a58     0xc  Data  Lc  fsl_dspi.o [1]
+s_dspiIRQ               0x00006c3c     0x4  Data  Lc  fsl_dspi.o [1]
+s_dspiMasterIsr         0x1fff0058     0x4  Data  Lc  fsl_dspi.o [1]
+s_dspiSlaveIsr          0x1fff005c     0x4  Data  Lc  fsl_dspi.o [1]
+s_fastIrcFreq           0x1fff0004     0x4  Data  Lc  fsl_clock.o [1]
+s_gpioBases             0x00006944    0x14  Data  Lc  fsl_gpio.o [1]
+s_portBases             0x00006930    0x14  Data  Lc  fsl_gpio.o [1]
+s_slowIrcFreq           0x1fff0000     0x4  Data  Lc  fsl_clock.o [1]
+s_uartBases             0x0000687c    0x18  Data  Lc  fsl_uart.o [1]
+s_uartClock             0x00006894    0x18  Data  Lc  fsl_uart.o [1]
+s_uartHandle            0x1fff0060    0x18  Data  Lc  fsl_uart.o [1]
+s_uartIRQ               0x00006ae0     0x8  Data  Lc  fsl_uart.o [1]
+s_uartIsr               0x1fff0078     0x4  Data  Lc  fsl_uart.o [1]
+send_preamble_ms        0x00004819    0x40  Code  Gb  A7139.o [1]
+strchk                  0x0000557d    0x36  Code  Lc  simple_console.o [1]
+strlen                  0x00003349          Code  Gb  strlen.o [5]
+strtoul                 0x00005689     0x4  Code  Gb  strtoul.o [3]
+t_console_handle        0x1ffff160    0x30  Data  Gb  simple_console.o [1]
+tab_seq                 0x00006a88     0xc  Data  Lc  simple_console.o [1]
+to_send                 0x1fff000c     0x4  Data  Gb  simple_console.o [1]
+uart_task               0x000055b3    0x92  Code  Gb  simple_console.o [1]
+ucHeap                  0x1fff0098  0xf000  Data  Lc  heap_4.o [1]
+ucMaxSysCallPriority    0x1ffff3e4     0x1  Data  Lc  port.o [1]
+ulMaxPRIGROUPValue      0x1ffff0b0     0x4  Data  Lc  port.o [1]
+uxCriticalNesting       0x1fff0008     0x4  Data  Lc  port.o [1]
+uxCurrentNumberOfTasks  0x1ffff384     0x4  Data  Lc  tasks.o [1]
+uxListRemove            0x00001403    0x26  Code  Gb  list.o [1]
+uxPendedTicks           0x1ffff394     0x4  Data  Lc  tasks.o [1]
+uxSchedulerSuspended    0x1ffff3a8     0x4  Data  Lc  tasks.o [1]
+uxTaskNumber            0x1ffff3a0     0x4  Data  Lc  tasks.o [1]
+uxTaskResetEventItemValue
+                        0x000010b9    0x1e  Code  Gb  tasks.o [1]
+uxTasksDeleted          0x1ffff36c     0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x1ffff38c     0x4  Data  Lc  tasks.o [1]
+vEventGroupDelete       0x00005331    0x42  Code  Gb  event_groups.o [1]
+vEventGroupSetBitsCallback
+                        0x00005373     0x8  Code  Gb  event_groups.o [1]
+vListInitialise         0x00001391    0x1e  Code  Gb  list.o [1]
+vListInitialiseItem     0x000013af     0x6  Code  Gb  list.o [1]
+vListInsert             0x000013cd    0x36  Code  Gb  list.o [1]
+vListInsertEnd          0x000013b5    0x18  Code  Gb  list.o [1]
+vPortEnableVFP          0x00001c35          Code  Gb  portasm.o [1]
+vPortEnterCritical      0x00001253    0x3a  Code  Gb  port.o [1]
+vPortExitCritical       0x0000128d    0x32  Code  Gb  port.o [1]
+vPortFree               0x000019ed    0x76  Code  Gb  heap_4.o [1]
+vPortSetupTimerInterrupt
+                        0x00001369    0x28  Code  Wk  port.o [1]
+vPortStartFirstTask     0x00001c1d          Code  Gb  portasm.o [1]
+vPortValidateInterruptPriority
+                        0x000012ed    0x4a  Code  Gb  port.o [1]
+vQueueAddToRegistry     0x000023db    0x24  Code  Gb  queue.o [1]
+vQueueDelete            0x00002261    0x26  Code  Gb  queue.o [1]
+vQueueUnregisterQueue   0x000023ff    0x20  Code  Gb  queue.o [1]
+vQueueWaitForMessageRestricted
+                        0x00002429    0x42  Code  Gb  queue.o [1]
+vTaskDelay              0x00000587    0x80  Code  Gb  tasks.o [1]
+vTaskMissedYield        0x00000d0d     0xa  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventList   0x000009db    0x6a  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventListRestricted
+                        0x00000ad3    0x6c  Code  Gb  tasks.o [1]
+vTaskPlaceOnUnorderedEventList
+                        0x00000a45    0x8e  Code  Gb  tasks.o [1]
+vTaskPriorityInherit    0x00000f51    0xa8  Code  Gb  tasks.o [1]
+vTaskSetTimeOutState    0x00000c61    0x26  Code  Gb  tasks.o [1]
+vTaskStartScheduler     0x000006df    0x74  Code  Gb  tasks.o [1]
+vTaskSuspend            0x00000607    0xd8  Code  Gb  tasks.o [1]
+vTaskSuspendAll         0x00000753    0x10  Code  Gb  tasks.o [1]
+vTaskSwitchContext      0x0000096f    0x6c  Code  Gb  tasks.o [1]
+xActiveTimerList1       0x1ffff3ac    0x14  Data  Lc  timers.o [1]
+xActiveTimerList2       0x1ffff3c0    0x14  Data  Lc  timers.o [1]
+xBlockAllocatedBit      0x1ffff0ac     0x4  Data  Lc  heap_4.o [1]
+xDelayedTaskList1       0x1ffff314    0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x1ffff328    0x14  Data  Lc  tasks.o [1]
+xEventGroupClearBits    0x00005245    0x44  Code  Gb  event_groups.o [1]
+xEventGroupCreate       0x00005105    0x1c  Code  Gb  event_groups.o [1]
+xEventGroupSetBits      0x00005289    0xa8  Code  Gb  event_groups.o [1]
+xEventGroupSetBitsFromISR
+                        0x00005395    0x10  Code  Gb  event_groups.o [1]
+xEventGroupWaitBits     0x00005121   0x124  Code  Gb  event_groups.o [1]
+xFreeBytesRemaining     0x1ffff0a4     0x4  Data  Lc  heap_4.o [1]
+xHeapStructSize         0x00006c40     0x4  Data  Lc  heap_4.o [1]
+xMinimumEverFreeBytesRemaining
+                        0x1ffff0a8     0x4  Data  Lc  heap_4.o [1]
+xNextTaskUnblockTime    0x1ffff3a4     0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x1ffff39c     0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x1ffff344    0x14  Data  Lc  tasks.o [1]
+xPortStartScheduler     0x00001187    0xcc  Code  Gb  port.o [1]
+xQueueCreateMutex       0x00001d57    0x5c  Code  Gb  queue.o [1]
+xQueueGenericCreate     0x00001cdf    0x78  Code  Gb  queue.o [1]
+xQueueGenericReceive    0x000020c3   0x19e  Code  Gb  queue.o [1]
+xQueueGenericReset      0x00001c51    0x8e  Code  Gb  queue.o [1]
+xQueueGenericSend       0x00001db3   0x18e  Code  Gb  queue.o [1]
+xQueueGenericSendFromISR
+                        0x00001f41    0xd0  Code  Gb  queue.o [1]
+xQueueGiveFromISR       0x00002011    0xb2  Code  Gb  queue.o [1]
+xQueueRegistry          0x1ffff0b4    0x40  Data  Gb  queue.o [1]
+xSchedulerRunning       0x1ffff390     0x4  Data  Lc  tasks.o [1]
+xStart                  0x1ffff098     0x8  Data  Lc  heap_4.o [1]
+xSuspendedTaskList      0x1ffff370    0x14  Data  Lc  tasks.o [1]
+xTaskCheckForTimeOut    0x00000c8d    0x80  Code  Gb  tasks.o [1]
+xTaskGenericCreate      0x00000411   0x176  Code  Gb  tasks.o [1]
+xTaskGetSchedulerState  0x00000f31    0x20  Code  Gb  tasks.o [1]
+xTaskGetTickCount       0x0000085f     0x8  Code  Gb  tasks.o [1]
+xTaskIncrementTick      0x00000867   0x108  Code  Gb  tasks.o [1]
+xTaskPriorityDisinherit
+                        0x00000ffd    0xb2  Code  Gb  tasks.o [1]
+xTaskRemoveFromEventList
+                        0x00000b59    0x82  Code  Gb  tasks.o [1]
+xTaskRemoveFromUnorderedEventList
+                        0x00000bdb    0x84  Code  Gb  tasks.o [1]
+xTaskResumeAll          0x00000763    0xfc  Code  Gb  tasks.o [1]
+xTasksWaitingTermination
+                        0x1ffff358    0x14  Data  Lc  tasks.o [1]
+xTickCount              0x1ffff388     0x4  Data  Lc  tasks.o [1]
+xTimerCreate            0x00001477    0x60  Code  Gb  timers.o [1]
+xTimerCreateTimerTask   0x00001429    0x4e  Code  Gb  timers.o [1]
+xTimerGenericCommand    0x000014d7    0x72  Code  Gb  timers.o [1]
+xTimerPendFunctionCallFromISR
+                        0x0000189b    0x22  Code  Gb  timers.o [1]
+xTimerQueue             0x1ffff3dc     0x4  Data  Lc  timers.o [1]
+xYieldPending           0x1ffff398     0x4  Data  Lc  tasks.o [1]
+
+
+[1] = D:\sw\branches\bronze_sbox\boards\twrk24f120m\rtos_examples\freertos_dspi_rf\iar\debug\obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  25 316 bytes of readonly  code memory
+   2 444 bytes of readonly  data memory
+  63 461 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,1653 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4166504908</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\modem_flash\spiflash_ll.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_smc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_smc.h</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_dmamux.o</file>
+      <file>$PROJ_DIR$\debug\obj\test_rtc.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\shell.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\plc_codec_ping.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_clock.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_dspi_freertos.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\debug\obj\system_MK24F25612.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\test_peak_sensor.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_lptmr.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_shell.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_dspi.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_shell.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\system_MK24F25612.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\test_spi.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\test_rtc.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\clock_config.o</file>
+      <file>$PROJ_DIR$\debug\obj\test_uart.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\test_spi.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\A7139_CONFIG.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\debug\obj\test_key.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\debug\obj\drv_st7580.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_lptmr.o</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_dac.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\heap_4.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\A7139.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\test_battery.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_common.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\spiflash_ll.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\test_led.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\croutine.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\event_groups.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_common.o</file>
+      <file>$PROJ_DIR$\debug\obj\test_ping_sn.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\test_speaker.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_clock.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_uart_freertos.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\queue.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_debug_console.o</file>
+      <file>$PROJ_DIR$\debug\obj\test_peak_sensor.o</file>
+      <file>$PROJ_DIR$\debug\obj\A7139_CONFIG.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\MK24F25612_features.h</file>
+      <file>$PROJ_DIR$\debug\obj\board.o</file>
+      <file>$PROJ_DIR$\debug\obj\port.o</file>
+      <file>$PROJ_DIR$\debug\obj\clock_config.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\tasks.o</file>
+      <file>$PROJ_DIR$\debug\obj\test_speaker.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\list.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\tasks.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+      <file>$PROJ_DIR$\debug\obj\timers.o</file>
+      <file>$PROJ_DIR$\debug\obj\test_ping_common.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_dspi_edma.h</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_dac.o</file>
+      <file>$PROJ_DIR$\debug\obj\test_uart.o</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_adc16.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\queue.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\MK24F25612.h</file>
+      <file>$PROJ_DIR$\MK24FN256xxx12_flash.icf</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\debug\obj\portasm.o</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_rtc.o</file>
+      <file>$PROJ_DIR$\debug\obj\test_rtc.o</file>
+      <file>$PROJ_DIR$\debug\obj\drv_st7580.o</file>
+      <file>$PROJ_DIR$\debug\obj\freertos_hw_all_test.pbd</file>
+      <file>$PROJ_DIR$\debug\obj\plc_codec_ping.o</file>
+      <file>$PROJ_DIR$\debug\obj\profiling.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\drv_st7580.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\event_groups.o</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_gpio.o</file>
+      <file>$PROJ_DIR$\debug\obj\heap_4.o</file>
+      <file>$PROJ_DIR$\debug\obj\profiling.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_smc.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\board.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\test_battery.o</file>
+      <file>$PROJ_DIR$\debug\obj\Timer.o</file>
+      <file>$PROJ_DIR$\debug\obj\plc_codec_ping.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_smc.o</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_uart.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_rtc.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\profiling.o</file>
+      <file>$PROJ_DIR$\debug\obj\SPI_A7139.o</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_uart_freertos.o</file>
+      <file>$PROJ_DIR$\debug\obj\test_spi.o</file>
+      <file>$PROJ_DIR$\debug\obj\system_MK24F25612.o</file>
+      <file>$PROJ_DIR$\debug\obj\port.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\test_ping_sn.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_uart.o</file>
+      <file>$PROJ_DIR$\debug\obj\board.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\spiflash_ll.o</file>
+      <file>$PROJ_DIR$\debug\obj\test_led.o</file>
+      <file>$PROJ_DIR$\debug\obj\shell.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\debug\obj\test_peak_sensor.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\core_cmSimd.h</file>
+      <file>$PROJ_DIR$\debug\obj\spiflash_ll.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\drv_st7580\util_queue.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_edma.h</file>
+      <file>$PROJ_DIR$\debug\obj\croutine.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\list\freertos_uart.map</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_common.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\test_ping.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\fsl_device_registers.h</file>
+      <file>$PROJ_DIR$\debug\obj\tasks.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\debug\obj\test_battery.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_dspi_freertos.o</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_uart_freertos.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_dmamux.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\test_key.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\SPI_A7139.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\debug\obj\A7139.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_lptmr.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\core_cm4.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_dspi.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\test_key.o</file>
+      <file>$PROJ_DIR$\..\wav_record.h</file>
+      <file>$PROJ_DIR$\debug\obj\A7139_CONFIG.o</file>
+      <file>$PROJ_DIR$\debug\obj\croutine.o</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_clock.o</file>
+      <file>$PROJ_DIR$\debug\obj\test_uart.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\list.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\test_main.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\pin_mux.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\debug\obj\Timer.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\uartplc_k24.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\test_speaker.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_gpio.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\debug\obj\queue.o</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_dspi_freertos.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\shell.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\test_main.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\7139\A7139.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\7139\A7139_CONFIG.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\7139\SPI_A7139.c</file>
+      <file>$PROJ_DIR$\..\board.c</file>
+      <file>$PROJ_DIR$\..\board.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\7139\SPI_A7139.h</file>
+      <file>$PROJ_DIR$\..\clock_config.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\7139\A7139.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\7139\A7139_CONFIG.h</file>
+      <file>$PROJ_DIR$\..\clock_config.h</file>
+      <file>$PROJ_DIR$\..\pin_mux.c</file>
+      <file>$PROJ_DIR$\..\pin_mux.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_adc16.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_adc16.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_dspi_freertos.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_port.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_clock.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_dac.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_rtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_dspi.h</file>
+      <file>$PROJ_DIR$\..\profiling.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_lptmr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_dspi_freertos.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_dac.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_clock.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_dmamux.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_dmamux.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_dspi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_lptmr.c</file>
+      <file>$PROJ_DIR$\..\drv_st7580\test_ping_common.c</file>
+      <file>$PROJ_DIR$\..\drv_st7580\uartplc_k24.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\croutine.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\include\croutine.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\include\deprecated_definitions.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\event_groups.c</file>
+      <file>$PROJ_DIR$\..\drv_st7580\drv_st7580_fsm.h</file>
+      <file>$PROJ_DIR$\..\drv_st7580\plc_k24_error.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\include\event_groups.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\include\FreeRTOS.h</file>
+      <file>$PROJ_DIR$\..\drv_st7580\plc_codec_ping.h</file>
+      <file>$PROJ_DIR$\..\drv_st7580\plc_k24_timer.h</file>
+      <file>$PROJ_DIR$\..\drv_st7580\plc_codec_ping.c</file>
+      <file>$PROJ_DIR$\..\drv_st7580\Timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_uart_freertos.h</file>
+      <file>$PROJ_DIR$\..\drv_st7580\drv_st7580.h</file>
+      <file>$PROJ_DIR$\..\drv_st7580\plc_k24_types.h</file>
+      <file>$PROJ_DIR$\..\drv_st7580\uartplc_k24.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\portable\IAR\ARM_CM4F\port.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\portable\IAR\ARM_CM4F\portmacro.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\portable\IAR\ARM_CM4F\portasm.s</file>
+      <file>$PROJ_DIR$\..\drv_st7580\drv_st7580.c</file>
+      <file>$PROJ_DIR$\..\drv_st7580\test_ping_sn.c</file>
+      <file>$PROJ_DIR$\..\drv_st7580\plc_k24_api.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_uart_freertos.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\include\projdefs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\portable\MemMang\heap_4.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\include\portable.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\timers.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\modem_flash\spiflash_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\include\timers.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\list.c</file>
+      <file>$PROJ_DIR$\..\FreeRTOSConfig.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\include\StackMacros.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\include\queue.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\queue.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\include\task.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\include\list.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\include\mpu_wrappers.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\tasks.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\include\semphr.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\debug\obj\pin_mux.o</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_adc16.o</file>
+      <file>$PROJ_DIR$\debug\obj\port.pbi</file>
+      <file>$PROJ_DIR$\..\test_uart.c</file>
+      <file>$PROJ_DIR$\debug\obj\test_ping_common.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\pin_mux.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_uart.__cstat.et</file>
+      <file>$PROJ_DIR$\..\test_speaker.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\utilities\fsl_debug_console.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\utilities\fsl_debug_console.h</file>
+      <file>$PROJ_DIR$\..\test_battery.c</file>
+      <file>$PROJ_DIR$\..\test_key.c</file>
+      <file>$PROJ_DIR$\..\test_main.c</file>
+      <file>$PROJ_DIR$\..\test_led.c</file>
+      <file>$PROJ_DIR$\..\test_rtc.c</file>
+      <file>$PROJ_DIR$\..\test_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\system_MK24F25612.c</file>
+      <file>$PROJ_DIR$\..\shell.c</file>
+      <file>$PROJ_DIR$\..\shell_cmd.h</file>
+      <file>$PROJ_DIR$\..\test_peak_sensor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\system_MK24F25612.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\utilities\fsl_shell.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\iar\startup_MK24F25612.s</file>
+      <file>$PROJ_DIR$\..\test_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\utilities\fsl_shell.h</file>
+      <file>$PROJ_DIR$\debug\obj\timers.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_debug_console.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_gpio.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_debug_console.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\freertos_uart.out</file>
+      <file>$PROJ_DIR$\debug\obj\heap_4.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\SPI_A7139.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\Timer.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_dmamux.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\test_led.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\list.o</file>
+      <file>$PROJ_DIR$\debug\obj\startup_MK24F25612.o</file>
+      <file>$PROJ_DIR$\debug\obj\clock_config.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\uartplc_k24.o</file>
+      <file>$PROJ_DIR$\debug\obj\timers.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\test_ping_common.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\test_main.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\A7139.o</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_shell.o</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_dac.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\uartplc_k24.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_rtc.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\test_ping_sn.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_smc.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_dspi.pbi</file>
+      <file>$PROJ_DIR$\debug\obj\event_groups.__cstat.et</file>
+      <file>$PROJ_DIR$\debug\obj\fsl_adc16.pbi</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 265 115</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 242</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 187 122 120 190 62 11 235 106 107 118 152 245 109 110 51 135 27 147 0 151 98 104 136 133 68 256 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 190 62 152 122 106 98 104 151 11 109 235 110 136 133 120 68 135 27 147 118 159 107 256 51 187 245</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\modem_flash\spiflash_ll.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 182 11 122 198 235 113 169 152 190 223 120 164 203 118 68 147 109 63 189 245 175 171 106 151 98 104 234 219 136 228 62 187 256 159 221 31 226 213 232 110 133 51 135 27 107 173</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109 235 152 122 106 98 104 151 11 223 175 203 31 136 226 219 221 198 213 118 232 234 228 182 190 62 110 133 120 68 135 27 147 159 107 256 51 187 63 113 189 245 164 169 173 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_smc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 284</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110 152 11 122 235 109 51 135 147 190 62 120 187 106 151 98 104 136 133 68 256 159 4 27 107 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4 190 62 152 122 106 98 104 151 11 109 235 110 136 133 120 68 135 27 147 118 159 107 256 51 187</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\7139\A7139_CONFIG.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122 106 151 11 235 152 98 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 235 152 122 106 98 104 151 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\7139\SPI_A7139.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 267</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 130</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 109 62 234 230 175 120 187 122 151 98 152 147 173 221 176 245 190 235 106 104 136 51 135 31 165 182 202 169 110 11 68 256 159 203 226 198 164 27 107 118 219 213 232 228 224 231</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 164 169 173 190 62 152 122 106 98 104 151 11 109 235 110 136 133 120 68 135 27 147 118 159 107 256 51 187 165 182 175 203 31 226 219 221 198 213 232 234 228 202 224 230 231 176 245</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 104 110 106 147 245 151 98 109 122 51 135 27 62 173 190 164 11 235 120 187 136 133 68 256 107 118 159 169</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 235 152 122 106 98 104 151 11 190 62 109 110 136 133 120 68 135 27 147 118 159 107 256 51 187 245 164 169 173</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\clock_config.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 273</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 235 62 120 187 122 151 98 152 68 169 106 104 136 256 107 118 4 109 110 11 51 135 27 147 190 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 190 62 152 122 106 98 104 151 11 109 235 110 136 133 120 68 135 27 147 118 159 107 256 51 187 4 169</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\7139\A7139.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 278</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 159 230 235 106 256 202 165 190 62 120 187 122 151 203 213 175 168 109 110 11 68 147 234 219 136 232 224 160 98 104 133 51 135 27 107 118 221 182 31 226 198 228 173 231</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 160 190 62 152 122 106 98 104 151 11 109 235 110 136 133 120 68 135 27 147 118 159 107 256 51 187 175 203 31 226 219 221 198 213 232 234 228 182 165 173 202 224 230 231 168</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\pin_mux.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 241</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 109 152 164 104 147 171 51 135 106 122 62 173 176 190 68 256 107 151 98 118 235 110 120 159 11 187 136 133 169</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120 68 135 235 152 122 106 98 104 151 11 27 147 118 159 107 256 51 176 190 62 109 110 136 133 187 171 164 169 173</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_adc16.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 287</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 237</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 11 122 110 235 109 51 135 147 190 62 120 187 106 151 98 104 136 133 68 256 159 172 27 107 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 172 190 62 152 122 106 98 104 151 11 109 235 110 136 133 120 68 135 27 147 118 159 107 256 51 187</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 282</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110 152 11 122 235 190 109 51 135 147 62 120 187 106 151 98 104 136 133 68 256 159 180 27 107 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 190 62 152 122 106 98 104 151 11 109 235 110 136 133 120 68 135 27 147 118 159 107 256 51 187</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_clock.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 142</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 109 147 122 51 135 27 62 187 110 11 107 118 235 190 120 106 151 98 104 136 133 68 256 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 190 62 152 122 106 98 104 151 11 109 235 110 136 133 120 68 135 27 147 118 159 107 256 51 187</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 263</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 153</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122 235 106 152 147 104 136 256 190 62 120 187 151 98 133 68 27 109 110 11 51 135 107 118 173 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 173 190 62 152 122 106 98 104 151 11 109 235 110 136 133 120 68 135 27 147 118 159 107 256 51 187</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\profiling.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 235 245 219 109 230 152 106 136 122 107 118 154 224 151 98 133 232 110 203 228 260 70 11 31 226 221 213 51 135 27 147 62 190 131 198 231 120 187 68 256 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131 152 122 106 98 104 151 11 136 70 110 133 154 203 31 235 226 219 221 198 213 118 232 230 231 228 224 260 190 62 109 120 68 135 27 147 159 107 256 51 187 245</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_dspi_freertos.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 156</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 219 122 228 221 152 120 147 136 187 182 235 11 198 118 62 133 51 135 27 203 234 31 226 106 151 98 104 213 232 107 175 190 109 110 68 256 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 203 31 152 122 106 98 104 151 11 136 235 226 219 221 198 213 118 232 234 228 182 190 62 109 110 133 120 68 135 27 147 159 107 256 51 187</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_dac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 280</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 62 235 120 187 122 151 98 152 68 190 106 104 136 256 147 109 110 11 51 135 159 179 27 107 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179 190 62 152 122 106 98 104 151 11 109 235 110 136 133 120 68 135 27 147 118 159 107 256 51 187</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 117</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136 118 235 104 256 107 152 106 122 62 120 187 151 98 133 68 245 109 110 11 51 135 27 147 190 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 190 62 152 122 106 98 104 151 11 109 235 110 136 133 120 68 135 27 147 118 159 107 256 51 187 245</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_dmamux.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 269</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 128</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120 152 187 122 151 98 68 235 62 133 106 104 136 256 147 109 190 110 11 51 135 159 189 27 107 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 189 190 62 152 122 106 98 104 151 11 109 235 110 136 133 120 68 135 27 147 118 159 107 256 51 187</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_dspi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 285</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 109 147 122 51 135 27 62 110 11 107 118 235 182 190 120 187 106 151 98 104 136 133 68 256 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 182 190 62 152 122 106 98 104 151 11 109 235 110 136 133 120 68 135 27 147 118 159 107 256 51 187</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_lptmr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 134</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 256 136 235 106 152 122 62 120 187 151 98 133 68 147 109 190 110 11 51 135 159 184 27 107 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 184 190 62 152 122 106 98 104 151 11 109 235 110 136 133 120 68 135 27 147 118 159 107 256 51 187</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drv_st7580\test_ping_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 240</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 276</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 217 205 122 98 210 152 110 209 201 104 119 136 133 106 151 11</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119 217 210 201 205 209 110 152 122 106 98 104 151 11 136 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\croutine.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 98 235 219 136 104 213 118 231 230 31 226 221 122 106 151 11 232 203 197 198</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 203 31 152 122 106 98 104 151 11 136 235 226 219 221 198 213 118 232 230 231 197</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\event_groups.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 286</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122 152 219 224 104 203 151 136 213 118 231 230 202 98 235 232 154 106 11 31 226 221 198</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154 152 122 106 98 104 151 11 136 203 31 235 226 219 221 198 213 118 232 230 231 224 202</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drv_st7580\plc_codec_ping.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 209 122 98 201 210 152 110 119 217 205 104 204 136 133 106 151 11</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 204 119 217 210 201 205 209 110 152 122 106 98 104 151 11 136 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drv_st7580\Timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 268</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 148</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 217 210 201 205</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 217 210 201 205</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drv_st7580\uartplc_k24.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 281</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 149</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 274</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109 230 210 226 147 202 228 0 122 68 209 111 164 31 221 231 110 152 235 224 195 208 245 200 219 136 11 198 118 169 256 159 120 203 190 106 151 98 104 213 232 173 62 187 133 51 135 27 107 234 205</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 203 31 152 122 106 98 104 151 11 136 235 226 219 221 198 213 118 232 230 231 228 224 202 164 169 173 190 62 109 110 133 120 68 135 27 147 159 107 256 51 187 111 210 195 208 0 234 245 200 209 205</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\portable\IAR\ARM_CM4F\port.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 238</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 122 232 230 226 104 203 31 221 98 213 118 231 235 219 136 106 151 11 198</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 118 152 203 31 122 106 98 104 151 11 136 235 226 219 221 198 213 232 230 231</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\portable\IAR\ARM_CM4F\portasm.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AARM</name>
+          <file> 226</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drv_st7580\drv_st7580.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151 98 208 226 152 210 195 190 122 120 213 235 256 159 245 200 31 221 106 104 232 62 187 68 147 109 205 203 209 234 230 217 110 228 219 136 11 198 118 231 133 51 135 27 107 201 202 224 0</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 203 31 152 122 106 98 104 151 11 136 235 226 219 221 198 213 118 232 230 231 245 190 62 109 110 133 120 68 135 27 147 159 107 256 51 187 217 210 201 205 195 202 224 209 200 228 208 0 234</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drv_st7580\test_ping_sn.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 283</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 122 221 187 204 31 106 152 232 120 235 119 110 226 151 98 213 62 68 147 109 230 209 245 219 136 11 198 118 231 201 210 256 159 203 217 205 190 133 51 135 27 107</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 203 31 152 122 106 98 104 151 11 136 235 226 219 221 198 213 118 232 230 231 119 217 210 201 205 209 204 245 190 62 109 110 133 120 68 135 27 147 159 107 256 51 187</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\drivers\fsl_uart_freertos.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 122 68 245 224 0 190 109 159 221 202 110 11 256 120 31 203 234 62 235 187 106 151 98 104 136 133 51 135 147 226 198 230 208 27 107 118 219 213 232 231 228</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 208 0 190 62 152 122 106 98 104 151 11 109 235 110 136 133 120 68 135 27 147 118 159 107 256 51 187 203 31 226 219 221 198 213 232 202 224 230 231 234 228 245</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\portable\MemMang\heap_4.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 266</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 151 203 122 98 235 232 230 136 106 11 104 219 213 118 231 154 31 226 221 198</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154 152 122 106 98 104 151 11 136 203 31 235 226 219 221 198 213 118 232 230 231</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\timers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 261</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 275</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 228 122 203 151 98 235 232 230 224 136 104 219 213 118 231 154 106 11 31 226 221 198</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154 152 122 106 98 104 151 11 136 203 31 235 226 219 221 198 213 118 232 230 231 228 224</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\list.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 144</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 271</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 151 11 31 231 136 106 122 221 203 98 104 226 198 154 235 219 213 232 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154 152 122 106 98 104 151 11 136 203 31 235 226 219 221 198 213 118 232 231</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\queue.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 155</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 122 152 31 230 198 136 11 221 118 110 203 228 151 106 98 104 226 231 154 235 219 213 232</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154 152 122 106 98 104 151 11 136 110 133 203 31 235 226 219 221 198 213 118 232 230 231 228</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\rtos\freertos_8.2.3_k24\Source\tasks.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 121</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122 231 131 230 151 136 227 98 152 226 110 203 224 106 104 31 221 198 118 154 11 133 235 219 213 232 70</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154 152 122 106 98 104 151 11 136 110 133 203 31 235 226 219 221 198 213 118 232 230 231 224 227 131 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\test_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 143</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 235 190 151 164 147 62 230 136 98 152 133 198 68 203 202 154 224 209 122 118 120 187 169 110 228 0 195 106 104 219 231 256 159 109 234 210 201 131 245 208 260 171 217 119 70 11 31 226 221 213 232 51 135 27 107 173 205</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131 152 122 106 98 104 151 11 136 70 110 133 154 203 31 235 226 219 221 198 213 118 232 230 231 228 224 120 68 135 27 147 159 107 256 51 245 190 62 109 187 164 169 173 208 0 202 234 260 209 210 171 217 201 205 195 119</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\test_speaker.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 118 232 110 245 122 221 107 230 139 70 235 154 224 260 11 136 31 62 203 228 120 164 179 106 151 98 104 133 226 213 51 135 27 147 109 173 131 219 198 231 68 256 159 190 187 169</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131 152 122 106 98 104 151 11 136 70 110 133 154 203 31 235 226 219 221 198 213 118 232 230 231 228 224 120 68 135 27 147 159 107 256 51 245 190 62 109 187 164 169 173 260 179 139</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\utilities\fsl_debug_console.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 262</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 264</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 62 147 126 0 151 98 122 112 120 187 133 51 135 27 154 245 106 104 190 235 136 107 118 14 11 18 109 110 68 256 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154 152 122 106 98 104 151 11 136 126 112 18 245 190 62 109 235 110 133 120 68 135 27 147 118 159 107 256 51 187 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\test_battery.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 133 136 151 98 245 235 230 221 232 107 118 110 154 224 260 106 104 122 31 62 203 228 120 164 172 70 11 226 213 51 135 27 147 109 173 131 219 198 231 68 256 159 190 187 169</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131 152 122 106 98 104 151 11 136 70 110 133 154 203 31 235 226 219 221 198 213 118 232 230 231 228 224 120 68 135 27 147 159 107 256 51 245 190 62 109 187 164 169 173 260 172</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\test_key.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 129</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 245 235 120 203 230 171 70 122 118 187 228 190 154 224 182 164 11 133 151 198 68 147 62 110 175 260 169 136 106 98 104 219 231 256 159 109 234 173 131 31 226 221 213 232 51 135 27 107</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131 152 122 106 98 104 151 11 136 70 110 133 154 203 31 235 226 219 221 198 213 118 232 230 231 228 224 120 68 135 27 147 159 107 256 51 245 190 62 109 187 175 234 182 260 171 169 164 173</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\test_main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 277</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 145</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 158</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122 213 0 152 147 120 190 226 151 98 169 228 164 171 31 221 106 104 232 51 135 27 109 203 230 224 245 208 260 235 219 136 11 198 118 107 110 234 231 68 256 159 62 187 133 173 202</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 203 31 152 122 106 98 104 151 11 136 235 226 219 221 198 213 118 232 230 231 228 224 120 68 135 27 147 159 107 256 51 245 190 62 109 110 133 187 164 169 173 208 0 202 234 260 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\test_led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 270</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 187 152 104 118 245 122 120 190 230 260 106 136 235 169 154 224 208 151 98 133 198 68 147 62 203 228 110 164 0 171 70 11 219 231 256 159 109 234 131 31 226 221 213 232 51 135 27 107 173 202</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131 152 122 106 98 104 151 11 136 70 110 133 154 203 31 235 226 219 221 198 213 118 232 230 231 228 224 120 68 135 27 147 159 107 256 51 245 190 62 109 187 164 169 173 208 0 202 234 260 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\test_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 62 169 120 187 122 151 98 152 68 107 118 235 180 190 106 104 136 256 173 164 171 109 110 11 51 135 27 147 245 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 245 190 62 152 122 106 98 104 151 11 109 235 110 136 133 120 68 135 27 147 118 159 107 256 51 187 164 169 173 180 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\test_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147 169 190 165 122 245 221 230 171 70 152 235 154 224 182 164 226 213 51 135 27 109 173 175 110 203 228 120 260 160 223 136 106 151 11 31 232 107 118 62 131 98 104 133 219 198 231 68 256 159 187 234 202</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131 152 122 106 98 104 151 11 136 70 110 133 154 203 31 235 226 219 221 198 213 118 232 230 231 228 224 120 68 135 27 147 159 107 256 51 245 190 62 109 187 175 234 182 260 171 169 164 173 160 165 202 223</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\system_MK24F25612.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135 104 51 106 152 147 151 98 27 120 122 11 68 256 107 118 235 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 235 152 122 106 98 104 151 11 120 68 135 27 147 118 159 107 256 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\shell.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 136 190 147 260 151 98 133 224 154 208 169 106 104 122 110 51 135 27 62 0 219 213 118 164 245 254 171 70 11 109 107 235 202 232 231 228 131 173 120 187 68 256 159 203 234 31 226 221 198 230</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131 152 122 106 98 104 151 11 136 70 110 133 154 164 169 173 190 62 109 235 120 68 135 27 147 118 159 107 256 51 187 260 245 208 0 203 31 226 219 221 198 213 232 202 224 230 231 234 228 254 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\test_peak_sensor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 256 245 122 230 171 70 219 159 235 154 224 184 11 136 231 190 109 110 203 228 120 260 164 169 106 151 98 104 133 198 118 68 147 62 187 131 31 226 221 213 232 51 135 27 107 173</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131 152 122 106 98 104 151 11 136 70 110 133 154 203 31 235 226 219 221 198 213 118 232 230 231 228 224 120 68 135 27 147 159 107 256 51 245 190 62 109 187 260 184 164 169 173 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\utilities\fsl_shell.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 279</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120 187 147 122 151 98 62 106 104 152 235 51 135 27 260 11 190 109 110 136 133 68 256 107 118 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62 152 122 106 98 104 151 11 260 190 109 235 110 136 133 120 68 135 27 147 118 159 107 256 51 187</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MK24F25612\iar\startup_MK24F25612.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 272</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\debug\freertos_uart.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 69 278 140 52 23 141 74 79 237 142 42 64 48 5 17 124 80 32 72 279 88 99 93 81 271 236 76 53 71 91 155 103 92 101 272 95 55 85 138 102 158 49 61 97 73 150 94 65 86 60 274 29 116 59 125</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

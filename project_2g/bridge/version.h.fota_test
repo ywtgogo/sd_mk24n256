@@ -1,0 +1,12 @@
+#ifndef _VERSION_H_
+#define _VERSION_H_
+
+#define VERSION_MAJ 0
+#define VERSION_MIN 5
+#define VERSION_REV 3
+#define VERSION_BUI 0
+
+#define FW_VERSION	(uint32_t)(VERSION_MAJ<<24|VERSION_MIN<<16|VERSION_REV<<8|VERSION_BUI)
+
+
+#endif

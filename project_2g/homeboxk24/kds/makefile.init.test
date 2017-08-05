@@ -1,0 +1,8 @@
+SVN_BRANCH=$(shell svn info ../../.. | grep Relative | awk '{print $$3}')
+SVN_REV=$(shell svn info ../../.. | grep Revision | awk '{print $$2}')
+
+CFLAGS += -DBOARD_NAME=HW_V03 \
+	-DDEVICE_PLATFORM=DEVICE_PLATFORM_TEST \
+	-DAUDIO_ALARM_DEFAULT=AUDIO_ALARM_OFF \
+	-D__SVN_BRANCH=\"$(SVN_BRANCH)\" \
+	-D__SVN_REV=\"$(SVN_REV)\"

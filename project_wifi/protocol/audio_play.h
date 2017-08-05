@@ -1,0 +1,23 @@
+#ifndef _AUDIO_PLAY_H_
+#define _AUDIO_PLAY_H_
+
+#define PIT_CHANNEL 	kPIT_Chnl_0
+
+#define AUDIO_DATA_ADDR_START		0x700000
+
+typedef enum{
+	AUDIO_POST_ERROR,
+	AUDIO_PWRON,
+	AUDIO_PWROFF,
+	AUDIO_BAT_LOW,
+	AUDIO_ALARM_WATER,
+	AUDIO_ALARM_MAG,
+	AUDIO_ALARM_PIR,
+	AUDIO_ALARM_SMOKE,
+	AUDIO_SOS_CALL,
+}AUDIO_Index;
+
+void start_play_plan(AUDIO_Index index);
+
+
+#endif

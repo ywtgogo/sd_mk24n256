@@ -1,0 +1,2 @@
+SVN_BRANCH=$(shell svn info ../../.. | grep Relative | awk '{print $$3}')
+SVN_REV=$(shell svn info ../../.. | grep Revision | awk '{print $$2}')
